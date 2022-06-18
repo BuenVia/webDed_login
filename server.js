@@ -17,6 +17,7 @@ initializePassport(
     id => users.find(user => user.id === id)
 )
 
+// To connect to mongodb
 const users = []
 
 app.set('view engine', 'ejs')
